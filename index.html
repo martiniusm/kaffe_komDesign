@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
   </head>
   <body>
     <header>
@@ -54,6 +56,21 @@
             miljøbevissthet.
           </p>
         </article>
+        <button onclick="onClick(`read1`)">Les mer</button>
+        <article class="readmore" id="read1">
+          <ul>
+            <li>
+              <a href="https://kaffe.no/det-norske-folks-kaffevaner/">Aldri</a>
+              har vi vært mer opptatt av helse. Etter hvert som kaffens mange
+              positive helsemessige effekter ble kjent, mistet den stemplet som
+              en litt «farlig» drikk man burde nyte i begrensede mengder. Blant
+              kaffedrikkerne oppgir 88% at de tror kaffe har en positiv eller
+              nøytral effekt på helsetilstanden, og de fleste negative myter er
+              avlivet. Totalt i befolkningen er det kun 7% som tror den har en
+              negativ effekt.
+            </li>
+          </ul>
+        </article>
         <article>
           <p>
             Når det gjelder utviklingen over tid, har det totale kaffeforbruket
@@ -75,5 +92,6 @@
     <footer>
       <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
