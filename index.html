@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/button.css" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/caffine_slider.css" />
   </head>
   <body>
     <header>
@@ -86,6 +87,19 @@
             travel hverdag.
           </p>
         </article>
+        <h1>Se hvor mye coffein du intar i løpet av en dag</h1>
+        <div class="container">
+          <input
+            type="range"
+            min="90"
+            max="540"
+            value="90"
+            class="slider"
+            id="caffeineSlider"
+          />
+          <span id="caffeinePerCup">90 mg</span>
+          <div id="cups"></div>
+        </div>
       </section>
     </main>
 
